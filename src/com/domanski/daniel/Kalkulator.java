@@ -1,11 +1,11 @@
 package com.domanski.daniel;
 
 public class Kalkulator {
-    public static double dodaj(double a, double b){
-        return a + b;
+    public static void dodaj(double a, double b){
+        System.out.println(a + " + " + b + " = " + (a + b));
     }
 
-    public static double odejmij(double a, double b){
-        return a - b;
+    public static void odejmij(double a, double b){
+        System.out.println(a + " - " + b + " = " + (a - b));
     }
 }
