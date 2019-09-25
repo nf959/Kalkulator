@@ -16,6 +16,9 @@ public class Main {
                 case "-":
                     System.out.println("Odejmowanie");
                     break;
+                case "*":
+                    System.out.println("Mnożenie");
+                    break;
             }
         } while (!operacja.equals("x"));
 
