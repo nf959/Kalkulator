@@ -9,9 +9,7 @@ public class Main {
     }
 
     public static double pobierzLiczbe(){
-
         Scanner myObj = new Scanner(System.in);
-        double liczba = Double.parseDouble(myObj.nextLine());
-        return liczba;
+        return Double.parseDouble(myObj.nextLine());
     }
 }
