@@ -19,6 +19,9 @@ public class Main {
                 case "*":
                     System.out.println("Mnożenie");
                     break;
+                case "/":
+                    System.out.println("Dzielenie");
+                    break;
             }
         } while (!operacja.equals("x"));
 
