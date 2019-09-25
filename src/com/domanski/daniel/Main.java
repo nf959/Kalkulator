@@ -8,13 +8,19 @@ public class Main {
         System.out.println("Kalkulator");
         String operacja;
         do {
+            System.out.print("Podaj liczbe1 = ");
+            double liczba1 = pobierzLiczbe();
+
+            System.out.print("Podaj liczbe2 = ");
+            double liczba2 = pobierzLiczbe();
+
             operacja = pobierzOperacje();
             switch (operacja) {
                 case "+":
-                    System.out.println("Dodawanie");
+                    Kalkulator.dodaj(liczba1, liczba2);
                     break;
                 case "-":
-                    System.out.println("Odejmowanie");
+                    Kalkulator.odejmij(liczba1, liczba2);
                     break;
                 case "*":
                     System.out.println("Mnożenie");
