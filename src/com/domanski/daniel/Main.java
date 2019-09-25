@@ -24,8 +24,6 @@ public class Main {
                     break;
             }
         } while (!operacja.equals("x"));
-
-
     }
 
     public static double pobierzLiczbe() {
@@ -35,7 +33,6 @@ public class Main {
 
     public static String pobierzOperacje() {
         System.out.println("Wybierz operację jaką chcesz wykonać +, -, *, /");
-        Scanner obj = new Scanner(System.in);
-        return obj.nextLine();
+        return new Scanner(System.in).nextLine();
     }
 }
