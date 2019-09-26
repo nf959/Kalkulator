@@ -23,7 +23,7 @@ public class Main {
                     Kalkulator.odejmij(liczba1, liczba2);
                     break;
                 case "*":
-                    System.out.println("Mnożenie");
+                    Kalkulator.pomnoz(liczba1, liczba2);
                     break;
                 case "/":
                     System.out.println("Dzielenie");
