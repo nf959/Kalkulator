@@ -12,4 +12,8 @@ public class Kalkulator {
     public static void pomnoz(double a, double b) {
         System.out.println(a + " * " + b + " = " + (a * b));
     }
+    
+    public static void podziel(double a, double b) {
+        System.out.println(a + " / " + b + " = " + (a / b));
+    }
 }
